@@ -28,19 +28,19 @@ color r b "This string will be red and bold"
 
 ### Available colors
 
-* black|b
-* red|r
-* green|g
-* yellow|y
-* blue|bl
-* magenta|m
-* cyan|c
-* white|w
+* black (b)
+* red (r)
+* green (g)
+* yellow (y)
+* blue (bl)
+* magenta (m)
+* cyan (c)
+* white (w)
 
 ### Available Styles
 
-* bold|b
-* italic|i
-* underline|u
-* inverse|in
-* strikethrough|s
+* bold (b)
+* italic (i)
+* underline (u)
+* inverse (in)
+* strikethrough (s)
