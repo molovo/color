@@ -5,6 +5,14 @@ function color() {
 
   shift
 
+  case $style in
+    bold|b)           b=1; shift ;;
+    italic|i)         b=2; shift ;;
+    underline|u)      b=4; shift ;;
+    inverse|in)       b=7; shift ;;
+    strikethrough|s)  b=9; shift ;;
+  esac
+
   case $color in
     black|b)    echo "\033[${b};30m${@}\033[0;m" ;;
     red|r)      echo "\033[${b};31m${@}\033[0;m" ;;
