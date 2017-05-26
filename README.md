@@ -21,6 +21,10 @@ color red "This string will be red"
 color g "This string will be green"
 color y "This string will be yellow"
 
+# Using numbers for colors
+color 28 "This string will be dark green"
+color 250 "This string will be light grey"
+
 # Using styles
 color black underline "This string will be black and underlined"
 color r b "This string will be red and bold"
@@ -36,6 +40,7 @@ color r b "This string will be red and bold"
 * magenta (m)
 * cyan (c)
 * white (w)
+* [0-256] - https://en.wikipedia.org/wiki/ANSI_escape_code#Colors
 
 ### Available Styles
 
