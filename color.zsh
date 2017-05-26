@@ -22,6 +22,7 @@ function color() {
     magenta|m)  echo "\033[${b};35m${@}\033[0;m" ;;
     cyan|c)     echo "\033[${b};36m${@}\033[0;m" ;;
     white|w)    echo "\033[${b};37m${@}\033[0;m" ;;
+    *)          echo "\033[${b};38;5;${color}m${@}\033[0;m" ;;
   esac
 }
 
